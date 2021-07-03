@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/image/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    {{!-- Navigation bar --}}
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" style="font-size: 30px;"></i>
+        </label>
+        <label class="homepg">ThunderStar<i class="fas fa-cloud-moon-rain" style="font-size: 35px;"></i></label>
+        <ul>
+            <li class="active"><a href="/"><i class="fa fa-home fa-fw" style="font-size: 20px;"></i>Home</a></li>
+            <li><a href="/about"><i class="fas fa-clipboard-list" style="font-size: 20px;"></i>About</a></li>
+            <li><a href="/help"><i class="fas fa-hands-helping" style="font-size: 20px;"></i>Help</a>             
+        </ul>
+    </nav>
+
+    {{!-- main content part --}}
+    <div class="main-content">
+        {{>header}}
+        <p style="color:black">Use this site to get your weather!!</p>
+        <form>
+            <input placeholder=" Write your Location........ " id="loc">
+            <button>Search</button>
+        </form>
+
+        <div class="form_type">
+            <p id="msg1" style="color: black;"></p>
+            <p id="msg2"></p>
+            <p id="msg3"></p>
+            <p id="msg4"></p>
+            <p id="msg5"></p>
+            <p id="msg6"></p>
+            <p id="msg7"></p>
+        </div>
+    </div>
+    {{>footer}}
+    <script src="javascript/client-side.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About</title>
+    <meta charset="utf-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+     <link rel="icon" href="/image/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    {{!-- Navigation bar --}}
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" style="font-size: 30px;"></i>
+        </label>
+        <label class="homepg">ThunderStar
+        <i class="fas fa-cloud-moon-rain" style="font-size: 35px;"></i>
+        </label>
+        <ul>
+            <li class="active"><a href="/"><i class="fa fa-home fa-fw" style="font-size: 20px;"></i>Home</a></li>
+            <li><a href="/about"><i class="fas fa-clipboard-list" style="font-size: 20px;"></i>About</a></li>
+            <li><a href="/help"><i class="fas fa-hands-helping" style="font-size: 20px;"></i>Help</a>        
+        </ul>
+    </nav>
+
+    {{!-- main content part --}}
+    <div class="main-content">
+        {{>header}}
+        <div>
+            <h2>This website provides informations about the weather along with temperature, wind speed, pressure of any location of the world.</h2>    
+            <i class="fas fa-sun" style="color: orangered"></i>
+            <i class="fas fa-cloud" style="color: aqua;"></i>
+            <i class="fas fa-cloud-showers-heavy" style="color: aqua;"></i>
+            <i class="fas fa-cloud-rain" style="color: aqua;"></i>
+            <i class="fas fa-cloud-meatball" style="color: aqua;"></i>
+            <i class="fas fa-snowflake" style="color: aqua;"></i>
+            <i class="fas fa-moon" style="color: yellow;"></i>
+            <i class="fas fa-star" style="color: yellow"></i>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
+

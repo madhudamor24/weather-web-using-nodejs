@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>404_Error</title>
+    <meta charset="utf-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="/image/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="javasript/client-side.js"></script>
+</head>
+
+<body>
+    {{!-- Navigation bar --}}
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" style="font-size: 35px;"></i>
+        </label>
+        <label class="homepg">404 error<i class="material-icons" style="font-size:35px;color:red">warning</i></label>
+        <ul>
+            <li class="active"><a href="/"><i class="fa fa-home fa-fw" style="font-size: 20px;"></i>Home</a></li>
+            <li><a href="/about"><i class="fas fa-clipboard-list" style="font-size: 20px;"></i>About</a></li>
+            <li><a href="/help"><i class="fas fa-hands-helping" style="font-size: 20px;"></i>Help</a>               
+        </ul>
+    </nav>
+
+    {{!-- main content part --}}
+    <div class="main-content">
+        {{>header}}
+        <img class="error" src="image/angry.webp">
+        <p class="notfound">{{errorMessage}}</p>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
