@@ -129,6 +129,27 @@ a.active, a:hover{
 
 }
 
+@media (max-width:500px){
+    label.homepg{
+        font-size: 25px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width:450px){
+    label.homepg{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width:300px){
+    label.homepg{
+        font-size: 15px;
+        padding-left: 0px;
+    }
+}
+
 /* Main Form */
 .main-content{
     flex-grow: 1;
