@@ -147,12 +147,12 @@ i{
 
     .checkbtn{
         display: block;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     i{
         font-size: 30px;
-        margin: 4px;
+        /* margin: 4px; */
     }
 
 }
@@ -166,13 +166,13 @@ i{
 
     .checkbtn{
         display: block;
-        font-size: 20px;
-        margin-right: 10px;
+        font-size: 18px;
+        margin-right: 8px;
     }
 
     i{
         font-size: 28px;
-        margin: 3px;
+        /* margin: 3px; */
     }
 }
 
