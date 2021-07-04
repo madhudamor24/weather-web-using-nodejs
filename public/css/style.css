@@ -138,23 +138,23 @@ i{
 
 @media (max-width:550px){
     label.homepg{
-        font-size: 30px;
+        font-size: 35px;
         padding-left: 0px;
     }
 
     .checkbtn{
         display: block;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     i{
-        font-size: 20px;
+        font-size: 30px;
         margin: 5px;
     }
 
 }
 
-@media (max-width:500px){
+/* @media (max-width:500px){
     label.homepg{
         font-size: 25px;
         padding-left: 0px;
@@ -169,41 +169,9 @@ i{
         font-size: 20px;
         margin: 4px;
     }
-}
+} */
 
-@media (max-width:450px){
-    label.homepg{
-        font-size: 20px;
-        padding-left: 0px;
-    }
 
-    .checkbtn{
-        display: block;
-        font-size: 20px;
-    }
-
-    i{
-        font-size: 15px;
-        margin: 3px;
-    }
-}
-
-@media (max-width:300px){
-    label.homepg{
-        font-size: 15px;
-        padding-left: 0px;
-    }
-
-    .checkbtn{
-        display: block;
-        font-size: 15px;
-    }
-
-    i{
-        font-size: 10px;
-        margin: 2px;
-    }
-}
 
 /* Main Form */
 .main-content{
