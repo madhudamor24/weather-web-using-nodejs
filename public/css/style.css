@@ -152,7 +152,7 @@ i{
 
     i{
         font-size: 30px;
-        /* margin: 4px; */
+        display: none;
     }
 
 }
@@ -171,8 +171,8 @@ i{
     }
 
     i{
+        display: none;
         font-size: 28px;
-        /* margin: 3px; */
     }
 }
 
