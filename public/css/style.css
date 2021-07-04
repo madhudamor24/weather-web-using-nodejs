@@ -159,20 +159,19 @@ i{
 
 @media (max-width:490px){
     label.homepg{
-        font-size: 32px;
+        font-size: 30px;
         padding-left: 0px;
         margin-left: 0px;
     }
 
     .checkbtn{
         display: block;
-        font-size: 18px;
+        font-size: 15px;
         margin-right: 8px;
     }
 
     i{
-        display: none;
-        font-size: 28px;
+        font-size: 25px;
     }
 }
 
