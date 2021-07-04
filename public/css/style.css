@@ -157,10 +157,11 @@ i{
 
 }
 
-@media (max-width:500px){
+@media (max-width:490px){
     label.homepg{
-        font-size: 33px;
+        font-size: 32px;
         padding-left: 0px;
+        margin-left: 0px;
     }
 
     .checkbtn{
